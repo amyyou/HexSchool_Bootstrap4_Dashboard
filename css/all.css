@@ -1,0 +1,10 @@
+html{
+    font-size: 14px;
+}
+
+/* 最小不能低於 100vh 的裝置高
+扣掉 nav bar 的高 /  footer 的高/ footer所提供的margin top / footer本身文字大小 
+ */
+.main{
+	min-height: calc(100vh - (49px + 49px + 42px + 14px));
+}
